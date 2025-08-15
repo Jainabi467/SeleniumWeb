@@ -1,0 +1,30 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<properties>
+<selenium-java-groupId>selenium</selenium-java-groupId>
+</properties>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Aug2_2025</groupId>
+  <artifactId>Aug2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ <dependencies><!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency> 
+<dependency><groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.21.0</version>
+            </dependency>
+            
+
+             <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+            
+            </dependencies>
+</project>
